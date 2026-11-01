@@ -4,6 +4,15 @@ from pathlib import Path
 import joblib
 import pandas as pd
 import streamlit as st
+st.markdown("""
+<style>
+a[aria-label="View source on GitHub"],
+a[aria-label="GitHub"],
+[data-testid="stToolbar"] a[href*="github.com"] {
+    display: none !important;
+}
+</style>
+""", unsafe_allow_html=True)
 
 
 # ==========================================
