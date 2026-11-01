@@ -4,16 +4,21 @@ from pathlib import Path
 import joblib
 import pandas as pd
 import streamlit as st
+```python
 st.markdown("""
 <style>
-a[aria-label="View source on GitHub"],
-a[aria-label="GitHub"],
-[data-testid="stToolbar"] a[href*="github.com"] {
+/* Hide GitHub source-code link */
+a[href*="github.com"] {
     display: none !important;
+}
+
+/* Keep other toolbar controls visible */
+[data-testid="stToolbar"] {
+    visibility: visible !important;
 }
 </style>
 """, unsafe_allow_html=True)
-
+```
 
 # ==========================================
 # 1. PAGE CONFIGURATION
