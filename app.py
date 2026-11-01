@@ -4,7 +4,6 @@ from pathlib import Path
 import joblib
 import pandas as pd
 import streamlit as st
-```python
 st.markdown("""
 <style>
 /* Hide GitHub source-code link */
@@ -18,7 +17,6 @@ a[href*="github.com"] {
 }
 </style>
 """, unsafe_allow_html=True)
-```
 
 # ==========================================
 # 1. PAGE CONFIGURATION
